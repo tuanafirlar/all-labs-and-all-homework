@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-05 10:01:46 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjQtMDEtMDU7MDk6NTI6MzIgw5ZTOzI1OTc="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjQtMDEtMDU7MTA6MDE6NDYgw5ZTOzE7MjY5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="v, a, t" type="Integer" array="False" size=""/>
+            <if expression="t&lt;= 15">
+                <then>
+                    <assign variable="v" expression="a * t"/>
+                </then>
+                <else>
+                    <if expression="t &lt;= 35">
+                        <then>
+                            <assign variable="v" expression="480"/>
+                        </then>
+                        <else>
+                            <assign variable="v" expression="480 -(a*(t-35))"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="v" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

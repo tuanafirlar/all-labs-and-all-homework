@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-05 09:41:41 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjQtMDEtMDU7MDk6Mzg6MjMgw5ZTOzI2MDE="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjQtMDEtMDU7MDk6NDE6MTQgw5ZTOzE7UEM7TEFQVE9QLThJMUtFRUw3OzIwMjQtMDEtMDU7MDk6MzQ6MzEgw5ZTOzUzNTg="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjQtMDEtMDU7MDk6NDE6NDEgw5ZTOzE7MjcwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="age, birthDate" type="Integer" array="False" size=""/>
+            <assign variable="age" expression="2023 - birthDate"/>
+            <output expression="age" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

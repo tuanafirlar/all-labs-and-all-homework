@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-05 09:47:01 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjQtMDEtMDU7MDk6NDE6NDMgw5ZTOzI1OTc="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjQtMDEtMDU7MDk6NDc6MDEgw5ZTOzE7MjcwNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <if expression="2*a =  a+b">
+                <then>
+                    <if expression="2*a = a + c">
+                        <then>
+                            <output expression="square" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="not square" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="not square" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

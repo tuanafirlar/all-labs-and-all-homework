@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-05 09:52:23 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjQtMDEtMDU7MDk6NDg6NDYgw5ZTOzI2MDc="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjQtMDEtMDU7MDk6NTI6MjMgw5ZTOzM7MjcwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, sum" type="Integer" array="False" size=""/>
+            <if expression="a&gt;50 &amp;&amp; b&gt;50">
+                <then>
+                    <assign variable="sum" expression="a + b"/>
+                    <output expression="sum" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

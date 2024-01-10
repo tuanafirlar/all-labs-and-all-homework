@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-05 09:38:16 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjQtMDEtMDU7MDk6MzQ6MzEgw5ZTOzI1OTY="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjQtMDEtMDU7MDk6Mzg6MTYgw5ZTOzE7MjcxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, sum" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="a + b"/>
+            <output expression="sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
